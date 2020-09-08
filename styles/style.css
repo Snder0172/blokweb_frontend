@@ -1,5 +1,99 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
+  margin: 0; padding: 0; 
 }
 
+h1{
+  font-family: 'Karla', sans-serif;
+  font-size: 2.25em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2{
+  font-family: 'Karla', sans-serif;
+  font-size: 1.75em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h3{
+  font-family: 'Karla', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 1.125em;
+}
+
+/* 
+=============================
+      HEADER 
+=============================      
+*/
+
+header{
+  padding: .25em;
+}
+
+header > section{
+  padding: .5em;
+  background:#2db396;
+}
+
+header > section:first-of-type{
+  color: white;
+}
+
+header > section:last-of-type{
+  padding: .5em;
+  background: white;
+}
+
+header > section:first-of-type > h2 > span{
+  font-weight: 700;
+}
+
+header > section:last-of-type > h1 > span{
+  font-weight: 700;
+}
+
+header > section:first-of-type > p {
+  font-weight: 300;
+}
+
+/* 
+=============================
+      SECTION 
+=============================      
+*/
+
+body > section{
+  background: #f3f7f7;
+  margin: .5em;
+}
+
+/* 
+=============================
+      NAVIGATION 
+=============================      
+*/
+
+nav{
+  background:#2db396;
+  width: 100%;
+  padding: 0 5vw;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > a > img{
+  width: 115px;
+}

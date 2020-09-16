@@ -37,36 +37,53 @@ p{
 =============================      
 */
 
-header{
-  padding: .25em;
-}
-
-header > section{
-  padding: .5em;
-  background:#2db396;
-}
-
 header > section:first-of-type{
   color: white;
+  background: url(https://www.24kitchen.nl/files/2020-09/topbanner-mobile_RB-DJB_V4.jpg);
+  background-size: cover;
+  background-position: right;
+  padding: 3.5em 5.5em 3.5em .5em;
+  border: .25em solid white;
 }
+
+/* @media screen and (min-width: 992px) {
+  header > section:first-of-type{
+    background: url(https://www.24kitchen.nl/files/2020-09/topbanner_RB-DJB.jpg) 100%;
+    padding: 3.5em 5.5em 3.5em .5em;
+  }
+} */
 
 header > section:last-of-type{
   padding: .5em;
   background: white;
 }
 
-header > section:first-of-type > h2 > span{
+header > section:first-of-type > h2 > span{font-weight: 700;}
+header > section:last-of-type > h1 > span{font-weight: 700;}
+header > section:first-of-type > p {font-weight: 300;}
+
+header > section:last-of-type{
+  background: url(https://www.24kitchen.nl/files/styles/full_width_narrow/public/2019-07/24Kitchen_Job%26Perry_RecipePhotography_HIGHRes_Philly_cheese_steak_van_de_barbecue_L.jpg?itok=y55l2OH7);
+  background-size: cover;
+  background-position: right;
+  padding: 1.5em;
+  position: relative;
+}
+
+header > section:last-of-type > article{
+  background: white;
+  text-align: center;
+}
+
+header > section:last-of-type > article > span{
+  background:#2db396;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.5em;
   font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  padding: .5em;
 }
-
-header > section:last-of-type > h1 > span{
-  font-weight: 700;
-}
-
-header > section:first-of-type > p {
-  font-weight: 300;
-}
-
 /* 
 =============================
       SECTION 
@@ -74,8 +91,12 @@ header > section:first-of-type > p {
 */
 
 body > section{
+  padding: 1.5em;
+}
+
+body > section > article{
   background: #f3f7f7;
-  margin: .5em;
+  padding: 1.5em;
 }
 
 /* 

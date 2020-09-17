@@ -4,117 +4,142 @@
   margin: 0; padding: 0; 
 }
 
+a{text-decoration: none; list-style-type: none;}
+
 h1{
-  font-family: 'Karla', sans-serif;
-  font-size: 2.25em;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 h2{
-  font-family: 'Karla', sans-serif;
-  font-size: 1.75em;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1.875em;
   font-weight: 400;
-  text-transform: uppercase;
+  color: #BF0029;
+  line-height: 1.3333333333em;
+  margin: 0 0 .125em 0;
 }
 
 h3{
-  font-family: 'Karla', sans-serif;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: "Merriweather Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.375em;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.27273em;
+  margin-bottom: 0.5454545455em;
+  color: #00263D;
 }
 
 p{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   line-height: 1.5;
-  font-size: 1.125em;
+  font-size: 1em;
+  margin: 0 0 1.75em;
+  font-weight: 400;
+  color: #00263D;
 }
 
-/* 
-=============================
-      HEADER 
-=============================      
-*/
-
-header > section:first-of-type{
-  color: white;
-  background: url(https://www.24kitchen.nl/files/2020-09/topbanner-mobile_RB-DJB_V4.jpg);
+header{
+  background: url(https://www.gemeentemaastricht.nl/sites/default/files/styles/large_9_4_2x/public/2019-11/gemeente%20Maastricht%20compositiefoto.jpg);
   background-size: cover;
-  background-position: right;
-  padding: 3.5em 5.5em 3.5em .5em;
-  border: .25em solid white;
+  background-position: center;
+  height: 50vw;
+  max-height: 20em;
 }
 
-/* @media screen and (min-width: 992px) {
-  header > section:first-of-type{
-    background: url(https://www.24kitchen.nl/files/2020-09/topbanner_RB-DJB.jpg) 100%;
-    padding: 3.5em 5.5em 3.5em .5em;
-  }
-} */
-
-header > section:last-of-type{
-  padding: .5em;
-  background: white;
+main{
+  max-width: 72em;
+  margin: 0 auto;
 }
 
-header > section:first-of-type > h2 > span{font-weight: 700;}
-header > section:last-of-type > h1 > span{font-weight: 700;}
-header > section:first-of-type > p {font-weight: 300;}
+section{margin-bottom: 2em; padding: 0 1.5em;}
+section:first-of-type{margin-top: -1em;}
 
-header > section:last-of-type{
-  background: url(https://www.24kitchen.nl/files/styles/full_width_narrow/public/2019-07/24Kitchen_Job%26Perry_RecipePhotography_HIGHRes_Philly_cheese_steak_van_de_barbecue_L.jpg?itok=y55l2OH7);
-  background-size: cover;
-  background-position: right;
-  padding: 1.5em;
+ul{
+  list-style-type: none;
   position: relative;
 }
 
-header > section:last-of-type > article{
-  background: white;
-  text-align: center;
-}
-
-header > section:last-of-type > article > span{
-  background:#2db396;
-  font-family: 'Karla', sans-serif;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
+section:first-of-type > ul >  li > a{
+  width: 100%;
+  min-height: 4em;
+  background: #00263D;
   color: white;
-  padding: .5em;
-}
-/* 
-=============================
-      SECTION 
-=============================      
-*/
-
-body > section{
-  padding: 1.5em;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1.188em;
+  padding: .781em 2.5em .781em 1.188em;
+  margin: 0 0 .5em 0;
+  display: flex;
+  align-items: center;
+  border-radius: .225em;
+  transition: transform 0.175s ease-in-out,-webkit-transform 0.175s ease-in-out;
 }
 
-body > section > article{
-  background: #f3f7f7;
-  padding: 1.5em;
+section:first-of-type > ul > li > a:hover{
+  transform: translateY(-.5em);
+  background: rgb(217,70,38);
+  background: linear-gradient(90deg, rgba(217,70,38,1) 0%, rgba(191,1,41,1) 100%);
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.3);
+  margin-bottom: .5em;
 }
 
-/* 
-=============================
-      NAVIGATION 
-=============================      
-*/
+section:nth-of-type(2) > ul >  li > a{
+  font-size: 1.063em;
+  font-family: 'Merriweather', sans-serif;
+  width: 100%;
+  padding: 10px 2.5em 10px 0;
+  margin: 0 0 .375em 0;
+  display: flex;
+  transition: transform 0.175s ease-in-out;
+  border-bottom: .125em solid #EBEEF0;
+  color: #0055b7;
+  position: relative;
+}
+
+section:nth-of-type(2) > ul > li > a:hover{color: #BF0029;}
+
+section:nth-of-type(2) > ul >  li > a::after{
+  content: url(../images/arrow.svg);
+  right: 1em;
+  position: absolute;
+  transition: 0.175s ease-in-out;
+}
+
+section:nth-of-type(2) > ul >  li > a:hover::after{content: url(../images/arrow_hov.svg); right: .5em;}
+
+section:last-of-type{
+  background: url(https://www.gemeentemaastricht.nl/sites/default/files/styles/visual_highlight/public/2019-09/is_highlight.jpg?itok=6gXbj0B9);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vw;
+  max-height: 18em;
+  position: relative;
+  padding-top: 7em;
+}
+
+section:last-of-type > article{
+  background: white;
+  box-shadow: 0 0 1.5625em 0 rgba(0,0,0,0.4);
+  margin-top: 3rem;
+  margin-right: calc(2.8125rem - 25px);
+  padding: 2em 1.875em calc(2.5em - 1.75em);
+  float: right;
+  max-width: 450px;
+  border-radius: 0.375rem 0.375rem 0 0;
+}
 
 nav{
-  background:#2db396;
   width: 100%;
-  padding: 0 5vw;
-  height: 55px;
+  background: white;
+  padding: .5em;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-nav > a > img{
-  width: 115px;
+nav > img{
+  height: 3.75em;
 }

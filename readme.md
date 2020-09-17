@@ -63,12 +63,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 > Surface plane
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
-> https://www.24kitchen.nl/
+> https://www.gemeentemaastricht.nl/
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/24kitchen.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/....png)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/....png)

@@ -2,6 +2,7 @@
 *, *::after, *::before {
   box-sizing:border-box;
   margin: 0; padding: 0; 
+  transition: 0.175s ease-in-out;
 }
 
 a{text-decoration: none; list-style-type: none;}
@@ -18,17 +19,17 @@ h2{
   font-weight: 400;
   color: #BF0029;
   line-height: 1.3333333333em;
-  margin: 0 0 .125em 0;
+  margin: 0 0 .5em 0;
 }
 
 h3{
   font-family: "Merriweather Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 1.375em;
   font-style: normal;
-  font-weight: bold;
   line-height: 1.27273em;
   margin-bottom: 0.5454545455em;
   color: #00263D;
+  margin-bottom: .5em;
 }
 
 p{
@@ -52,6 +53,10 @@ main{
   max-width: 72em;
   margin: 0 auto;
 }
+
+/* ==================================
+      SECTION: SECUNDAIR MENU
+================================== */
 
 section{margin-bottom: 2em; padding: 0 1.5em;}
 section:first-of-type{margin-top: -1em;}
@@ -86,6 +91,9 @@ section:first-of-type > ul > li > a:hover{
   margin-bottom: .5em;
 }
 
+/* ==================================
+      SECTION: ONDERWERPEN
+================================== */
 section:nth-of-type(2) > ul >  li > a{
   font-size: 1.063em;
   font-family: 'Merriweather', sans-serif;
@@ -110,7 +118,10 @@ section:nth-of-type(2) > ul >  li > a::after{
 
 section:nth-of-type(2) > ul >  li > a:hover::after{content: url(../images/arrow_hov.svg); right: .5em;}
 
-section:last-of-type{
+/* ==================================
+      SECTION: RAADSAVOND
+================================== */
+section:nth-of-type(3){
   background: url(https://www.gemeentemaastricht.nl/sites/default/files/styles/visual_highlight/public/2019-09/is_highlight.jpg?itok=6gXbj0B9);
   background-size: auto;
   background-position: center;
@@ -119,18 +130,64 @@ section:last-of-type{
   max-height: 18em;
   position: relative;
   padding-top: 7em;
+  margin-bottom: 2em;
 }
 
-section:last-of-type > article{
+section:nth-of-type(3) > article{
   background: white;
   box-shadow: 0 0 1.5625em 0 rgba(0,0,0,0.4);
-  margin-top: 3rem;
-  margin-right: calc(2.8125rem - 25px);
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-right: calc(2.8125em - 25px);
   padding: 2em 1.875em calc(2.5em - 1.75em);
   float: right;
   max-width: 450px;
   border-radius: 0.375rem 0.375rem 0 0;
 }
+
+/* ==================================
+      SECTION: ACTUEEL
+================================== */
+section:last-of-type > article > img{
+  width: 100%;
+  height: auto;
+}
+
+section:last-of-type > article > span{
+  color: #0055b7;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1em;
+  padding: .75em 0;
+  display: block;
+  transition: 0.175s ease-in-out;
+}
+
+section:last-of-type > article > span::after{
+  content: url(../images/arrow.svg);
+  right: 2.5em;
+  position: absolute;
+  transition: 0.175s ease-in-out;
+}
+
+section:last-of-type > article:hover{
+  color: #BF0029;
+  cursor: pointer;
+}
+
+section:last-of-type > article:hover > span{color: #BF0029;}
+section:last-of-type > article:hover > span::after{content: url(../images/arrow_hov.svg); right: 1.75em;}
+section:last-of-type > article:hover > h3{color: #BF0029;}
+
+/* ==================================
+      FOOTER
+================================== */
+footer{
+  background: #00263D;
+  padding: 2em;
+}
+
+footer p, footer a{
+  color: white;
 
 nav{
   width: 100%;

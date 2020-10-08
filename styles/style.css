@@ -34,7 +34,7 @@ h3{
 
 p{
   font-family: 'Merriweather Sans', sans-serif;
-  line-height: 1.5;
+  line-height: 1.75em;
   font-size: 1em;
   margin: 0 0 1.75em;
   font-weight: 400;
@@ -57,7 +57,6 @@ main{
 /* =================================================================
                     SECTION: SECUNDAIR MENU
 ================================================================= */
-
 section{margin-bottom: 2em; padding: 0 1.5em;}
 section:first-of-type{margin-top: -1em;}
 
@@ -184,7 +183,7 @@ section:nth-of-type(3){
   max-height: 18em;
   position: relative;
   padding-top: 7em;
-  margin-bottom: 2em;
+  margin-bottom: 9em;
 }
 
 section:nth-of-type(3) > article{
@@ -193,15 +192,49 @@ section:nth-of-type(3) > article{
   margin-top: 3em;
   margin-bottom: 3em;
   margin-right: calc(2.8125em - 25px);
-  padding: 2em 1.875em calc(2.5em - 1.75em);
+  padding: 2em 1.875em 3em;
   float: right;
   max-width: 450px;
   border-radius: 0.375rem 0.375rem 0 0;
 }
 
+section:nth-of-type(3) > article > a{
+  padding: .813em 3.125em .813em 1.125em;
+  background: #00263D;
+  color: white;
+  border-radius: .225em;
+  font-size: 1.063em;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1em;
+  box-shadow: 0 .125em .1875em 0 rgba(0,0,0,0.05);
+  position: relative;
+}
+
+section:nth-of-type(3) > article > a::after{
+  content: url(../images/targetBlank.svg);
+  position: absolute;
+  right: 1.125em;
+  /* transition: 0.175s ease-in-out; */
+}
+
 /* =================================================================
                     SECTION: ACTUEEL
 ================================================================= */
+section:last-of-type > article{
+  margin-bottom: 2em;
+}
+
+/*      MEDIA QUERY 600 - 825         */
+/*      Section > ul                  */
+/* ---------------------------------- */
+/* @media only screen and (max-width: 825px) and (min-width: 600px){
+  section:last-of-type > article{
+    width: calc(50% - 2em);
+    float: left;
+    margin-right: 2em;
+  }
+} */
+
 section:last-of-type > article > img{
   width: 100%;
   height: auto;
@@ -214,6 +247,7 @@ section:last-of-type > article > span{
   padding: .75em 0;
   display: block;
   transition: 0.175s ease-in-out;
+  position: relative;
 }
 
 section:last-of-type > article > span::after{
@@ -237,12 +271,31 @@ section:last-of-type > article:hover > h3{color: #BF0029;}
 ================================================================= */
 footer{
   background: #00263D;
-  padding: 2em;
+  padding: 4em 0;
 }
 
-footer p, footer a{
+footer > section p, footer section a{
   color: white;
 }
+
+footer > section > a{
+  padding: 1em 1.125em;
+  background: rgb(217,70,38);
+  background: linear-gradient(90deg, rgba(217,70,38,1) 0%, rgba(191,1,41,1) 100%);
+  color: white;
+  border-radius: .225em;
+  font-size: 1.063em;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1em;
+  box-shadow: 0 .125em .1875em 0 rgba(0,0,0,0.05);
+  position: relative;
+  margin-bottom: .5em;
+}
+
+footer > section:last-of-type > a{
+  background: #0055B7;
+}
+
 
 /* =================================================================
                     NAVBAR

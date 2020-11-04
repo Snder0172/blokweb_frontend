@@ -1,36 +1,34 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Sander Noija
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
-
-## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
-
-
-
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+> Al met al ging het mij vrij makkelijk af. Ik merk dat ik met sommige dingen wat gemakzuchtig ben.
+> Met het eindresultaat ben ik tevreden. De uitdaging zat mij ook niet zozeer in het coderen/programmeren van de website.
+> Het uitwerken van de micro interactie met JS had wat uitgebreider gemogen. Resultaat van nu vind ik vrij basic.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+(images/widescreen.png)
+(images/smallerscreen.png)
 
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+> Ik heb een tijd stil gezeten. Niet veel aan de website gewerkt waardoor ik nog een tweede pagina miste en javascript.
+> Vasilis gaf als feedback dat ik goed naar het beoordelingsformulier moest gaan kijken. Doe wat nodig is en vink alles af.
+> Ook nu was ik goed opweg, ondanks dat ik in de tussentijd niet onwijs veel vordering had gemaakt.
+> Pagina bevat kleine css animatie's en er is genoeg gebruik gemaakt van verschillende html elementen.
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+> Ziek --> geen voortgangsgesprek gehad/
 
 
 
@@ -38,19 +36,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+> Ik ben aardig op weg. Groot gedeelte van de homepagina is klaar. 
+> De pagina bestaat voor een groot deel uit "ul" & "li's".
 
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
+> Tijdens het feedback moment kreeg ik van de student assistenten te horen dat ik goed op weg ben.
 
 
 
@@ -65,10 +54,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 > https://www.gemeentemaastricht.nl/
 
-**Screenshot(s):**
-
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/....png)
-
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/....png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown.png)

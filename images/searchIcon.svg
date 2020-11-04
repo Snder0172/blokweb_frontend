@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <rect id="Rectangle" fill="#BF0029" transform="translate(14.232233, 14.232233) rotate(-45.000000) translate(-14.232233, -14.232233) " x="13.232233" y="8.73223305" width="2" height="11"></rect>
+            <circle id="Oval" stroke="#BF0029" stroke-width="2" cx="6.5" cy="6.5" r="6.5"></circle>
+        </g>
+    </g>
+</svg>

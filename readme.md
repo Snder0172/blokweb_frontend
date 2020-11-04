@@ -12,8 +12,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-(images/widescreen.png)
-(images/smallerscreen.png)
+![-Screenshots van grotere schermen-](images/widescreen.png)
+![-Screenshots van kleinere schermen-](images/smallerscreen.png)
 
 
 
